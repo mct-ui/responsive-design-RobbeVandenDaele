@@ -224,6 +224,7 @@ a:focus {
 .o-container {
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
     max-width: 56.4em; /* 90 * 16px = 1440px */
 }
 
@@ -347,6 +348,26 @@ a:focus {
 /*------------------------------------*\
   #COMPONENTS
 \*------------------------------------*/
+
+/*
+    Component: Logo
+    ---
+    Website main logo
+*/
+
+.c-logo {
+    height: 32px;
+}
+
+.c-logo__symbol {
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .c-logo__symbol {
+        height: 40px;
+    }
+}
 
 /*------------------------------------*\
   #UTILITIES
