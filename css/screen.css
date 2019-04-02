@@ -221,6 +221,12 @@ a:focus {
     }
 }
 
+/* Background color modifier */
+
+.o-row—neutral-x-light {
+    background-color: #F7F7F7;
+}
+
 /*
     Objects: Container
     ---
